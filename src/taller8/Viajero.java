@@ -1,11 +1,11 @@
 package taller8;
-
-public class Viajero  extends Vehiculo, Gerente, Persona {
+/*public class Viajero  extends Vehiculo, Gerente, Persona {
 
     public Viajero( String marca, double velocidadMaxima, String nombre, double salario, int edad, String departamento){
         // Aqui se confunde el compilador porque no sabe a cual de las clases padre llamar ni como estructurar el objeto
         super(marca, velocidadMaxima);
     }
+
     public void intentoDeVerDatos(){
         System.out.println("Marca = " + this.marca);
         System.out.println("Salario = " + this.salario);
@@ -19,6 +19,7 @@ public class Viajero  extends Vehiculo, Gerente, Persona {
         los atributos privados  son de uso exclusivo para la clase en la que fueron creados.Aunque la clase
         hija herede de la clase padre, se bloquea el acceso a estos atributos, generando errores al intentar leerlos o
         modificarlos
-         */
+
     }
 }
+*/
