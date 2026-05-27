@@ -13,6 +13,12 @@ public class Viajero  extends Vehiculo, Gerente, Persona {
         // la clase hija no tiene permiso de ver los atributos privados
         System.out.println("Edad = " + this.edad);// edad es private en persona
         System.out.println("Departamento = " + this.departamento);// y departamento en Gerente
-        
+
+        /* Errores: En java no está permitida la herencia múltiple de clases . Una clase hija solo puede tener
+        una clase padre directa.
+        los atributos privados  son de uso exclusivo para la clase en la que fueron creados.Aunque la clase
+        hija herede de la clase padre, se bloquea el acceso a estos atributos, generando errores al intentar leerlos o
+        modificarlos
+         */
     }
 }
