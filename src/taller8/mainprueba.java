@@ -12,4 +12,12 @@ class claseprueba {
         estudiante.mostrarDetalles();
     }
 }
+class Mainprueba {
+    public static void main(String[] args) {
+        Empleado empleado = new Empleado ( "Fernanda Torres", 250000);
+        empleado.mostrarDetalles();
 
+        Gerente gerente = new Gerente("Luis Lopez", 100000, "Sistemas");
+        gerente.mostrarDetalles();
+    }
+}
