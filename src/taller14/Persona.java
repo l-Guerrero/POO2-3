@@ -1,7 +1,7 @@
-package taller10;
+package taller14;
 
 public class Persona {
-    public void presentarse(){
+    public void presentarse() {
         System.out.println("Soy una persona normal");
     }
 }
