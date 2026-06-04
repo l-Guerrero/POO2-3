@@ -1,6 +1,6 @@
-package taller18;
+package taller17;
 
-    public class CuentaAhorros extends CuentaBancaria {
+public class CuentaAhorros extends CuentaBancaria {
         private double tasaInteres;
 
         public CuentaAhorros(double saldoInicial, double tasaInteres) {

@@ -1,4 +1,4 @@
-package taller18;
+package taller17;
 
 public class CuentaBancaria {
         protected double saldo;
